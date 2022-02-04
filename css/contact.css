@@ -1,0 +1,85 @@
+body {
+	background-image: url("../Images/fond.png");
+	text-align:center;
+	color:blue;
+	margin: auto;
+	width: 1000px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+nav {
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	height:50px;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content: center;
+	background: white;
+	justify-content:space-evenly;
+}
+
+#logo{
+	height:100px;
+}
+
+#reseaux {
+	position:fixed;
+	bottom:0px;
+	right: 0px;
+}
+
+article{
+	text-align:left;
+	color:black;
+	margin:auto;
+	width:1000px;
+	
+}
+
+h4{
+	text-decoration:underline;
+}
+
+ul{
+	height:50px;
+	text-align:justify;
+	line-height:50px;
+	font-size:large;
+}
+
+h1{
+	text-decoration:underline;
+	color:red;
+}
+
+
+#confirmation{
+	font-size:xx-small;
+}
+
+#icone{
+	width:70px;
+}
+
+#iconef{
+	width:70px;
+}
+
+#emploi{
+	
+	font-size:large;
+}
+main{
+	background: white;
+}
+
+nav > div {
+	display:flex;
+	align-items:center;
+	position:relative;
+	text-align:center;
+	font-size:25px;
+}
+
